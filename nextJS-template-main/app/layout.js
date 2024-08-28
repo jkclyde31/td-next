@@ -2,7 +2,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./component/sections/Header";
 import Footer from "./component/sections/Footer";
-import Navbar from "./component/Navbar";
 // import ScrollToContent from "./component/ScrollToContent";
 
 
@@ -18,7 +17,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Header/>
-
           {children}
         <Footer/>
         </body>

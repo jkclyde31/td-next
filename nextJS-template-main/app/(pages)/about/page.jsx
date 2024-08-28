@@ -40,9 +40,9 @@ export default function CatchAllRoute() {
 
   // Return the page when found
   return (
-    <>
+    <div id="content" className="inner">
       {/* Render the Builder page */}
       <BuilderComponent model="about-page" content={content} />
-    </>
+    </div>
   );
 }
